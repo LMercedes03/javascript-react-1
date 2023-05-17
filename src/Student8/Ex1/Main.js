@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from './Header'
 import { Menu } from './Menu'
+import { Footer } from './Footer'
 import './Main.scss'
 
 export const Main = () => {
@@ -8,10 +9,7 @@ export const Main = () => {
     <div className="Main">
         <Header />
         <Menu />
-        {/* 
-          <Menu />
-          <Footer />
-        */}
+        <Footer /> 
     </div>
   )
 }

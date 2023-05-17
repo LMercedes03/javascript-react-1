@@ -1,9 +1,10 @@
 import React from 'react'
+import './Dessert.scss'
 
-export const Desert = () => {
+export const Dessert = () => {
   return (
-    <div>
-        <h2>Desert</h2>
+    <div className='Dessert'>
+        <h2>Dessert</h2>
         <hr></hr>
         <p>Chocolate Pie... $1.00</p>
         <p>Apple Pie... $1.00</p>

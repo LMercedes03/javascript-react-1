@@ -1,8 +1,9 @@
 import React from 'react'
+import './Food.scss'
 
 export const Food = () => {
   return (
-    <div>
+    <div className='Food'>
       <h2>Food</h2>
       <hr></hr>
       
