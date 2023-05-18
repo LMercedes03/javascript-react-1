@@ -1,11 +1,11 @@
 import React from 'react'
 import './Tweet.scss'
 
-export const Tweet = (props) => {
+export const Tweet = ({message, color, onClicked}) => {
     
     let className = "Message";
 
-    switch (props.color) {
+    switch (color) {
         case "red":
             className = "RedMessage"
             break;
@@ -22,7 +22,8 @@ export const Tweet = (props) => {
     return (
         <div className="Tweet">
             <div className={className}>
-                {props.message}
+                {message}
+                <button onClick={() => (onClicked(color))}>Like</button>
             </div>
         </div>
     )
