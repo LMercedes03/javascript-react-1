@@ -1,7 +1,6 @@
 import React from 'react'
 import { Tweet } from './Tweet'
 import { useState } from 'react'
-
 import './Tweets.scss'
 
 export const Tweets = () => {
